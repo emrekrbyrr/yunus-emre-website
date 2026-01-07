@@ -118,11 +118,8 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-[#6B5D52] pt-8 text-center">
-          <p className="text-[#E8DFD4] flex items-center justify-center gap-2">
+          <p className="text-[#E8DFD4]">
             © {currentYear} {personalInfo.name}. Tüm hakları saklıdır.
-            <span className="flex items-center gap-1">
-              Made with <Heart size={16} className="text-[#8B7355] fill-current" />
-            </span>
           </p>
         </div>
       </div>
