@@ -42,14 +42,14 @@ const About = () => {
 
           {/* Content Grid */}
           <div className="grid lg:grid-cols-2 gap-12 items-start">
-            {/* Left Column - Profile Image & Stats */}
+            {/* Left Column - Workspace Image */}
             <div className="space-y-8">
-              {/* Profile Image */}
+              {/* Workspace/Tech Image */}
               <div className="relative group">
-                <div className="absolute inset-0 bg-gradient-to-br from-[#8B7355] to-[#A0826D] rounded-2xl transform rotate-3 group-hover:rotate-6 transition-transform duration-300"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-[#8B7355] to-[#A0826D] rounded-2xl transform rotate-2 group-hover:rotate-3 transition-transform duration-300"></div>
                 <img
-                  src={personalInfo.profileImage}
-                  alt="Yunus Emre Kırbayır"
+                  src="https://images.unsplash.com/photo-1660810731526-0720827cbd38?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRldmVsb3BlciUyMHdvcmtzcGFjZXxlbnwwfHx8fDE3Njc4MDU3MDN8MA&ixlib=rb-4.1.0&q=85"
+                  alt="Professional Workspace"
                   className="relative rounded-2xl shadow-2xl w-full h-auto object-cover border-4 border-white"
                 />
               </div>
