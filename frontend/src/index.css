@@ -120,3 +120,12 @@ html {
 .delay-1000 {
   animation-delay: 1000ms;
 }
+
+/* Hide Emergent Badge */
+#emergent-badge,
+a[href*="emergent.sh"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
