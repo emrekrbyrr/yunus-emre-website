@@ -45,7 +45,7 @@ const About = () => {
             {/* Left Column - Workspace Image */}
             <div className="space-y-8">
               {/* Workspace/Tech Image */}
-              <div className="relative group">
+              <div className="relative group max-w-lg mx-auto">
                 <div className="absolute inset-0 bg-gradient-to-br from-[#8B7355] to-[#A0826D] rounded-2xl transform rotate-2 group-hover:rotate-3 transition-transform duration-300"></div>
                 <img
                   src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwyfHxjbGVhbiUyMHdvcmtzcGFjZXxlbnwwfHx8fDE3Njc4MDY2Mjh8MA&ixlib=rb-4.1.0&q=85"
