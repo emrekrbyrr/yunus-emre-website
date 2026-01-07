@@ -1,10 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { ExternalLink, Calendar } from 'lucide-react';
+import { Calendar, ChevronDown, ChevronUp } from 'lucide-react';
 import { projects } from '../data/mock';
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [activeFilter, setActiveFilter] = useState('all');
+  const [expandedProjects, setExpandedProjects] = useState([]);
   const sectionRef = useRef(null);
 
   useEffect(() => {
@@ -33,6 +34,14 @@ const Projects = () => {
   const filteredProjects = activeFilter === 'all'
     ? projects
     : projects.filter(project => project.category === activeFilter);
+
+  const toggleProject = (projectId) => {
+    setExpandedProjects(prev => 
+      prev.includes(projectId) 
+        ? prev.filter(id => id !== projectId)
+        : [...prev, projectId]
+    );
+  };
 
   return (
     <section id="projects" ref={sectionRef} className="py-24 bg-[#FEFEFE]">
@@ -73,18 +82,18 @@ const Projects = () => {
             {filteredProjects.map((project, index) => (
               <div
                 key={project.id}
-                className={`bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-500 border border-[#E8DFD4] group ${
+                className={`bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 border border-[#E8DFD4] group ${
                   isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
                 }`}
                 style={{ transitionDelay: `${index * 100}ms` }}
               >
-                {/* Project Image Placeholder */}
-                <div className="h-48 bg-gradient-to-br from-[#A0826D] to-[#8B7355] relative overflow-hidden">
-                  <div className="absolute inset-0 bg-[#3E3028]/20 flex items-center justify-center">
-                    <div className="text-white text-6xl font-bold opacity-20">
-                      {project.id}
-                    </div>
-                  </div>
+                {/* Project Image */}
+                <div className="h-48 overflow-hidden relative">
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
 
@@ -107,13 +116,15 @@ const Projects = () => {
                   </h3>
 
                   {/* Description */}
-                  <p className="text-[#6B5D52] text-sm leading-relaxed mb-4 line-clamp-3">
+                  <p className={`text-[#6B5D52] text-sm leading-relaxed mb-4 ${
+                    expandedProjects.includes(project.id) ? '' : 'line-clamp-3'
+                  }`}>
                     {project.description}
                   </p>
 
                   {/* Technologies */}
                   <div className="flex flex-wrap gap-2 mb-4">
-                    {project.technologies.slice(0, 3).map((tech, idx) => (
+                    {project.technologies.slice(0, expandedProjects.includes(project.id) ? undefined : 3).map((tech, idx) => (
                       <span
                         key={idx}
                         className="px-2 py-1 bg-[#FAF7F0] text-[#6B5D52] text-xs rounded border border-[#E8DFD4]"
@@ -121,17 +132,24 @@ const Projects = () => {
                         {tech}
                       </span>
                     ))}
-                    {project.technologies.length > 3 && (
+                    {!expandedProjects.includes(project.id) && project.technologies.length > 3 && (
                       <span className="px-2 py-1 text-[#A0826D] text-xs">
                         +{project.technologies.length - 3}
                       </span>
                     )}
                   </div>
 
-                  {/* View Details Button */}
-                  <button className="flex items-center text-[#8B7355] font-medium hover:text-[#6B5D52] transition-colors group">
-                    Detayları Gör
-                    <ExternalLink size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
+                  {/* Toggle Button */}
+                  <button 
+                    onClick={() => toggleProject(project.id)}
+                    className="flex items-center text-[#8B7355] font-medium hover:text-[#6B5D52] transition-colors group/btn"
+                  >
+                    {expandedProjects.includes(project.id) ? 'Daha Az Göster' : 'Tamamını Oku'}
+                    {expandedProjects.includes(project.id) ? (
+                      <ChevronUp size={16} className="ml-2 group-hover/btn:-translate-y-1 transition-transform" />
+                    ) : (
+                      <ChevronDown size={16} className="ml-2 group-hover/btn:translate-y-1 transition-transform" />
+                    )}
                   </button>
                 </div>
               </div>
