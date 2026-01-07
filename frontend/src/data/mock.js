@@ -3,7 +3,7 @@
 export const personalInfo = {
   name: "Yunus Emre KIRBAYIR",
   title: "Full-Stack Developer & Elektronik ve Haberleşme Mühendisi",
-  tagline: "Donanım ve Yazılımın Sinerjisinde Yenilikçi Çözümler",
+  tagline: "Mühendislik Vizyonu ile Teknik Çözümler",
   description: "Kocaeli Üniversitesi Elektronik ve Haberleşme Mühendisi mezunu olarak akademik ve profesyonel hayatım boyunca donanım ve yazılımın sinerjisine odaklandım. Mühendislik kökenli bakış açımla, karmaşık iş akışlarını analiz ederek bunları yüksek performanslı dijital çözümlere dönüştürüyorum.",
   email: "emrekirbayir@gmail.com",
   phone: "05395734636",
