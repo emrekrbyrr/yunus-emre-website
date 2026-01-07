@@ -41,8 +41,41 @@ const About = () => {
           </div>
 
           {/* Content Grid */}
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Text Content */}
+          <div className="grid lg:grid-cols-2 gap-12 items-start">
+            {/* Left Column - Profile Image & Stats */}
+            <div className="space-y-8">
+              {/* Profile Image */}
+              <div className="relative group">
+                <div className="absolute inset-0 bg-gradient-to-br from-[#8B7355] to-[#A0826D] rounded-2xl transform rotate-3 group-hover:rotate-6 transition-transform duration-300"></div>
+                <img
+                  src={personalInfo.profileImage}
+                  alt="Yunus Emre Kırbayır"
+                  className="relative rounded-2xl shadow-2xl w-full h-auto object-cover border-4 border-white"
+                />
+              </div>
+
+              {/* Stats Grid */}
+              <div className="grid grid-cols-2 gap-4">
+                {stats.map((stat, index) => (
+                  <div
+                    key={index}
+                    className={`p-6 bg-gradient-to-br from-[#FAF7F0] to-[#F5EFE7] rounded-xl text-center transform hover:scale-105 transition-all duration-300 border border-[#E8DFD4] shadow-lg hover:shadow-xl ${
+                      isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+                    }`}
+                    style={{ transitionDelay: `${index * 100}ms` }}
+                  >
+                    <div className="text-3xl font-bold text-[#8B7355] mb-1">
+                      {stat.value}
+                    </div>
+                    <div className="text-xs text-[#6B5D52] font-medium">
+                      {stat.label}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Right Column - Text Content */}
             <div className="space-y-6">
               <p className="text-lg text-[#6B5D52] leading-relaxed">
                 {aboutText.intro}
@@ -69,26 +102,6 @@ const About = () => {
                   Uzmanlık: Elektromanyetik Uyumluluk (EMC)
                 </p>
               </div>
-            </div>
-
-            {/* Stats Grid */}
-            <div className="grid grid-cols-2 gap-6">
-              {stats.map((stat, index) => (
-                <div
-                  key={index}
-                  className={`p-8 bg-gradient-to-br from-[#FAF7F0] to-[#F5EFE7] rounded-xl text-center transform hover:scale-105 transition-all duration-300 border border-[#E8DFD4] shadow-lg hover:shadow-xl ${
-                    isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-                  }`}
-                  style={{ transitionDelay: `${index * 100}ms` }}
-                >
-                  <div className="text-4xl font-bold text-[#8B7355] mb-2">
-                    {stat.value}
-                  </div>
-                  <div className="text-sm text-[#6B5D52] font-medium">
-                    {stat.label}
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
         </div>
