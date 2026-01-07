@@ -56,7 +56,8 @@ export const projects = [
     description: "Bu platform; şirketlerin ürün kiralama süreçlerini teklif aşamasından başlayarak sözleşme, ödeme ve cari takibiyle birlikte tek merkezden yönetmesini sağlar. Operasyonel yükü azaltırken, finansal akışın hatasız ve şeffaf bir şekilde izlenmesine olanak tanır.",
     technologies: ["React.js", "Node.js", "Bootstrap", "PostgreSQL"],
     category: "Full-Stack Development",
-    year: "2024"
+    year: "2024",
+    image: "https://images.pexels.com/photos/34862432/pexels-photo-34862432.jpeg"
   },
   {
     id: 2,
@@ -64,7 +65,8 @@ export const projects = [
     description: "İtfaiye ekipleri için geliştirilmiş kapsamlı bilgi yönetim sistemi. Acil durum müdahalesi, ekip koordinasyonu ve raporlama süreçlerini dijitalleştirerek operasyonel verimliliği artıran modern bir platform.",
     technologies: ["Node.js", "React.js", "REST API", "Real-time Data"],
     category: "Full-Stack Development",
-    year: "2024"
+    year: "2024",
+    image: "https://images.pexels.com/photos/35461837/pexels-photo-35461837.jpeg"
   },
   {
     id: 3,
@@ -72,7 +74,8 @@ export const projects = [
     description: "Çeşitli sektörlerden şirketler için modern, responsive ve SEO optimize edilmiş web siteleri geliştirdim. Google arama sıralamalarında üst sıralara çıkmayı hedefleyen teknik ve içerik optimizasyonları uyguladım.",
     technologies: ["React.js", "SEO", "Google Analytics", "Performance Optimization"],
     category: "Web Development & SEO",
-    year: "2023-2024"
+    year: "2023-2024",
+    image: "https://images.unsplash.com/photo-1547658719-da2b51169166?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjQyMTd8MHwxfHNlYXJjaHwyfHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3Njc3ODIzMDJ8MA&ixlib=rb-4.1.0&q=85"
   },
   {
     id: 4,
@@ -80,7 +83,8 @@ export const projects = [
     description: "Otonom ve elektrikli araçlar için elektromanyetik uyumluluk standartlarına uygun sensör dizilimi tasarımı. Elektromanyetik girişimi minimize ederek güvenilir sensör performansı sağlayan mühendislik projesi.",
     technologies: ["EMC Testing", "Sensor Design", "Electromagnetic Theory", "CAD"],
     category: "Hardware Engineering",
-    year: "2023"
+    year: "2023",
+    image: "https://images.pexels.com/photos/227731/pexels-photo-227731.jpeg"
   },
   {
     id: 5,
@@ -88,7 +92,8 @@ export const projects = [
     description: "Mikrodalga fırınlarda elektromanyetik sızıntıyı önlemek için Faraday kafesi prensibiyle çalışan bal peteği yapısında cam tasarımı. EMC standartlarına uygun, güvenli ve verimli bir çözüm.",
     technologies: ["EMC", "Faraday Cage", "Microwave Theory", "Material Science"],
     category: "Hardware Engineering",
-    year: "2022"
+    year: "2022",
+    image: "https://images.pexels.com/photos/414860/pexels-photo-414860.jpeg"
   }
 ];
 
