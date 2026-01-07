@@ -18,9 +18,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand Section */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">{personalInfo.name}</h3>
+            <h3 className="text-2xl font-bold text-[#3E3028] mb-4">{personalInfo.name}</h3>
             <p className="text-[#E8DFD4] mb-4">
-              Full-Stack Developer & Electronics Engineer
+              Full-Stack Developer & Elektronik ve Haberleşme Mühendisi
             </p>
             <div className="flex gap-4">
               <a
