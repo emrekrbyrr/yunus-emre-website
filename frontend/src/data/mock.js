@@ -93,7 +93,7 @@ export const projects = [
     technologies: ["EMC", "Faraday Cage", "Microwave Theory", "Material Science"],
     category: "Hardware Engineering",
     year: "2022",
-    image: "https://images.pexels.com/photos/414860/pexels-photo-414860.jpeg"
+    image: "https://images.unsplash.com/photo-1637186209526-652da1746ff4"
   }
 ];
 
