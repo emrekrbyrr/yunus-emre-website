@@ -33,7 +33,7 @@ const Hero = () => {
         <div className="absolute bottom-1/4 left-1/3 w-16 h-16 border-2 border-[#A0826D]/30 rounded-full animate-pulse delay-300"></div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 py-20 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 py-32 lg:py-20 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Column - Text Content */}
           <div
