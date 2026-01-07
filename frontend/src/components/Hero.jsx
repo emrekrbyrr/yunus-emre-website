@@ -54,7 +54,7 @@ const Hero = () => {
             <div className="flex items-center gap-3 mb-6">
               <div className="h-1 w-12 bg-gradient-to-r from-[#8B7355] to-[#A0826D] rounded-full"></div>
               <p className="text-xl lg:text-2xl text-[#8B7355] font-medium">
-                Electronics Engineer
+                Elektronik ve Haberleşme Mühendisi
               </p>
             </div>
 
