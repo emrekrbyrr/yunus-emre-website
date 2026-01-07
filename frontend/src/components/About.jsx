@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { aboutText, stats } from '../data/mock';
+import { aboutText, stats, personalInfo } from '../data/mock';
 
 const About = () => {
   const [isVisible, setIsVisible] = useState(false);
