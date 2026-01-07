@@ -113,7 +113,7 @@ const Hero = () => {
             }`}
           >
             {/* Decorative Frame */}
-            <div className="relative">
+            <div className="relative max-w-md mx-auto">
               {/* Background Card */}
               <div className="absolute inset-0 bg-gradient-to-br from-[#8B7355] to-[#A0826D] rounded-3xl transform rotate-3 scale-105"></div>
               
@@ -126,13 +126,13 @@ const Hero = () => {
                 />
                 
                 {/* Floating Stats Cards */}
-                <div className="absolute -bottom-6 -left-6 bg-white p-4 rounded-xl shadow-xl border-2 border-[#FAF7F0] transform hover:scale-110 transition-all duration-300">
-                  <div className="text-3xl font-bold text-[#8B7355]">5+</div>
+                <div className="absolute -bottom-4 -left-4 bg-white p-3 rounded-xl shadow-xl border-2 border-[#FAF7F0] transform hover:scale-110 transition-all duration-300">
+                  <div className="text-2xl font-bold text-[#8B7355]">5+</div>
                   <div className="text-xs text-[#6B5D52] font-medium">Yıl Deneyim</div>
                 </div>
                 
-                <div className="absolute -top-6 -right-6 bg-white p-4 rounded-xl shadow-xl border-2 border-[#FAF7F0] transform hover:scale-110 transition-all duration-300">
-                  <div className="text-3xl font-bold text-[#8B7355]">15+</div>
+                <div className="absolute -top-4 -right-4 bg-white p-3 rounded-xl shadow-xl border-2 border-[#FAF7F0] transform hover:scale-110 transition-all duration-300">
+                  <div className="text-2xl font-bold text-[#8B7355]">15+</div>
                   <div className="text-xs text-[#6B5D52] font-medium">Proje</div>
                 </div>
               </div>
