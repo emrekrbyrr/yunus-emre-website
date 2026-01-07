@@ -20,7 +20,7 @@ export const aboutText = {
 };
 
 export const stats = [
-  { value: "5+", label: "Yıl Deneyim" },
+  { value: "5+", label: "Mühendislik Deneyimi" },
   { value: "15+", label: "Tamamlanan Proje" },
   { value: "3", label: "Uzmanlık Alanı" },
   { value: "100%", label: "Müşteri Memnuniyeti" }
