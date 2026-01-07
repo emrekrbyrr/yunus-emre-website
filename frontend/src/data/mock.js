@@ -9,7 +9,8 @@ export const personalInfo = {
   phone: "05395734636",
   linkedin: "https://www.linkedin.com/in/emrekrbyr/",
   github: "https://github.com/emrekrbyrr",
-  location: "Kocaeli, Türkiye"
+  location: "Kocaeli, Türkiye",
+  profileImage: "https://customer-assets.emergentagent.com/job_fullstackemre/artifacts/93gpjx24_IMG_8070.jpg"
 };
 
 export const aboutText = {
