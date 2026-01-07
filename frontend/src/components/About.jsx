@@ -48,7 +48,7 @@ const About = () => {
               <div className="relative group">
                 <div className="absolute inset-0 bg-gradient-to-br from-[#8B7355] to-[#A0826D] rounded-2xl transform rotate-2 group-hover:rotate-3 transition-transform duration-300"></div>
                 <img
-                  src="https://images.unsplash.com/photo-1660810731526-0720827cbd38?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwxfHxzb2Z0d2FyZSUyMGRldmVsb3BlciUyMHdvcmtzcGFjZXxlbnwwfHx8fDE3Njc4MDU3MDN8MA&ixlib=rb-4.1.0&q=85"
+                  src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwyfHxjbGVhbiUyMHdvcmtzcGFjZXxlbnwwfHx8fDE3Njc4MDY2Mjh8MA&ixlib=rb-4.1.0&q=85"
                   alt="Professional Workspace"
                   className="relative rounded-2xl shadow-2xl w-full h-auto object-cover border-4 border-white"
                 />
