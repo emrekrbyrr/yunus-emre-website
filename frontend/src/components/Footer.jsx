@@ -1,5 +1,5 @@
-import React from 'react';
-import { Github, Linkedin, Mail, Heart } from 'lucide-react';
+import React, { useEffect, useRef, useState } from 'react';
+import { Heart } from 'lucide-react';
 import { personalInfo } from '../data/mock';
 
 const Footer = () => {
