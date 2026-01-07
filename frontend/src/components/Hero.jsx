@@ -127,8 +127,8 @@ const Hero = () => {
                 
                 {/* Floating Stats Cards */}
                 <div className="absolute -bottom-4 -left-4 bg-white p-3 rounded-xl shadow-xl border-2 border-[#FAF7F0] transform hover:scale-110 transition-all duration-300">
-                  <div className="text-2xl font-bold text-[#8B7355]">5+</div>
-                  <div className="text-xs text-[#6B5D52] font-medium">Yıl Deneyim</div>
+                  <div className="text-2xl font-bold text-[#8B7355]">15+</div>
+                  <div className="text-xs text-[#6B5D52] font-medium">Proje</div>
                 </div>
                 
                 <div className="absolute -top-4 -right-4 bg-white p-3 rounded-xl shadow-xl border-2 border-[#FAF7F0] transform hover:scale-110 transition-all duration-300">
