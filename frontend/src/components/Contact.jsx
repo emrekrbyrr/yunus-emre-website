@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Mail, Phone, Linkedin, Github, MapPin } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github } from 'lucide-react';
 import { contactInfo } from '../data/mock';
 
 const Contact = () => {
@@ -45,7 +45,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Cards Grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             {/* Email Card */}
             <a
               href={`mailto:${contactInfo.email}`}
@@ -73,17 +73,6 @@ const Contact = () => {
                 <div className="text-[#3E3028] font-semibold">{contactInfo.phone}</div>
               </div>
             </a>
-
-            {/* Location Card */}
-            <div className="flex flex-col items-center gap-4 p-8 bg-white rounded-2xl border border-[#E8DFD4] shadow-lg">
-              <div className="w-16 h-16 bg-gradient-to-br from-[#8B7355] to-[#A0826D] rounded-2xl flex items-center justify-center text-white shadow-lg">
-                <MapPin size={28} />
-              </div>
-              <div className="text-center">
-                <div className="text-sm text-[#A0826D] font-medium mb-2">Konum</div>
-                <div className="text-[#3E3028] font-semibold">Kocaeli, Türkiye</div>
-              </div>
-            </div>
           </div>
 
           {/* Social Media Section */}
