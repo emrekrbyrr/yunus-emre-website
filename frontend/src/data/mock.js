@@ -80,7 +80,7 @@ export const projects = [
   {
     id: 4,
     title: "Şirket Web Siteleri & SEO Çalışmaları",
-    description: "Çeşitli sektörlerden şirketler için modern, responsive ve SEO odaklı web siteleri geliştirdim. Teknik SEO ve içerik optimizasyonlarıyla arama görünürlüğünü artırmayı hedefleyen çalışmalar yürüttüm. (Örnek: Simons.com)",
+    description: "Çeşitli sektörlerden şirketler için modern, responsive ve SEO odaklı web siteleri geliştirdim. Teknik SEO ve içerik optimizasyonlarıyla arama görünürlüğünü artırmayı hedefleyen çalışmalar yürüttüm.",
     technologies: ["React.js", "SEO", "Google Analytics", "Performance Optimization"],
     category: "Web Development & SEO",
     year: "2023-2024",
