@@ -8,6 +8,7 @@ export const personalInfo = {
   email: "emrekirbayir@gmail.com",
   phone: "05395734636",
   linkedin: "https://www.linkedin.com/in/emrekrbyr/",
+  instagram: "https://www.instagram.com/emrekrbyr_/",
   github: "https://github.com/emrekrbyrr",
   location: "Kocaeli, Türkiye",
   profileImage: "https://customer-assets.emergentagent.com/job_fullstackemre/artifacts/93gpjx24_IMG_8070.jpg"
@@ -136,5 +137,6 @@ export const contactInfo = {
   email: "emrekirbayir@gmail.com",
   phone: "05395734636",
   linkedin: "https://www.linkedin.com/in/emrekrbyr/",
+  instagram: "https://www.instagram.com/emrekrbyr_/",
   github: "https://github.com/emrekrbyrr"
 };

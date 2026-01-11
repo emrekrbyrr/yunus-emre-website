@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Mail, Phone, Linkedin, Github } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, Instagram } from 'lucide-react';
 import { contactInfo } from '../data/mock';
 
 const Contact = () => {
@@ -86,6 +86,14 @@ const Contact = () => {
                 className="w-14 h-14 flex items-center justify-center rounded-full bg-white text-[#3E3028] hover:bg-[#8B7355] hover:text-white transform hover:scale-110 transition-all duration-300 border border-[#E8DFD4] shadow-lg hover:shadow-xl"
               >
                 <Github size={24} />
+              </a>
+              <a
+                href={contactInfo.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-14 h-14 flex items-center justify-center rounded-full bg-white text-[#3E3028] hover:bg-[#8B7355] hover:text-white transform hover:scale-110 transition-all duration-300 border border-[#E8DFD4] shadow-lg hover:shadow-xl"
+              >
+                <Instagram size={24} />
               </a>
               <a
                 href={contactInfo.linkedin}
