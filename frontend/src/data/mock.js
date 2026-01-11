@@ -71,7 +71,7 @@ export const projects = [
   {
     id: 3,
     title: "Özel Metod ile Borsa Analiz & Hisse Bulma Uygulaması",
-    description: "Kullanıcıların kendilerine özel yöntem/stratejiler ile yükseliş potansiyeli taşıyan hisseleri tespit etmesini sağlar. Hisseleri filtreleyip listeledikten sonra, detaylı grafik incelemesi ve araştırma ekranları sunar. Üst seviye güvenlik önlemleriyle verilerin ve hesap erişiminin korunmasına odaklanır.",
+    description: "Kullanıcıların kendilerine özel yöntem/stratejiler ile yükseliş potansiyeli taşıyan hisseleri tespit etmesini sağlar. Hisseleri filtreleyip listeledikten sonra, detaylı grafik incelemesi ve araştırma ekranları sunar. Üst seviye güvenlik önlemleriyle verilerin ve hesap erişiminin korunmasına odaklanır. (simons.com.tr)",
     technologies: ["Python", "React.js", "Güvenlik", "Veri Analizi", "Grafik Analizi"],
     category: "Full-Stack Development",
     year: "2024",
