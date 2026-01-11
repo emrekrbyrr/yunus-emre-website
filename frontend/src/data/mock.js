@@ -70,15 +70,24 @@ export const projects = [
   },
   {
     id: 3,
+    title: "Özel Metod ile Borsa Analiz & Hisse Bulma Uygulaması",
+    description: "Kullanıcıların kendilerine özel yöntem/stratejiler ile yükseliş potansiyeli taşıyan hisseleri tespit etmesini sağlar. Hisseleri filtreleyip listeledikten sonra, detaylı grafik incelemesi ve araştırma ekranları sunar. Üst seviye güvenlik önlemleriyle verilerin ve hesap erişiminin korunmasına odaklanır.",
+    technologies: ["Python", "React.js", "Güvenlik", "Veri Analizi", "Grafik Analizi"],
+    category: "Full-Stack Development",
+    year: "2024",
+    image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80"
+  },
+  {
+    id: 4,
     title: "Şirket Web Siteleri & SEO Çalışmaları",
-    description: "Çeşitli sektörlerden şirketler için modern, responsive ve SEO optimize edilmiş web siteleri geliştirdim. Google arama sıralamalarında üst sıralara çıkmayı hedefleyen teknik ve içerik optimizasyonları uyguladım.",
+    description: "Çeşitli sektörlerden şirketler için modern, responsive ve SEO odaklı web siteleri geliştirdim. Teknik SEO ve içerik optimizasyonlarıyla arama görünürlüğünü artırmayı hedefleyen çalışmalar yürüttüm. (Örnek: Simons.com)",
     technologies: ["React.js", "SEO", "Google Analytics", "Performance Optimization"],
     category: "Web Development & SEO",
     year: "2023-2024",
     image: "https://images.unsplash.com/photo-1547658719-da2b51169166?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjQyMTd8MHwxfHNlYXJjaHwyfHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3Njc3ODIzMDJ8MA&ixlib=rb-4.1.0&q=85"
   },
   {
-    id: 4,
+    id: 5,
     title: "EMC Uyumlu Elektrikli Araç Sensör Dizilimi",
     description: "Otonom ve elektrikli araçlar için elektromanyetik uyumluluk standartlarına uygun sensör dizilimi tasarımı. Elektromanyetik girişimi minimize ederek güvenilir sensör performansı sağlayan mühendislik projesi.",
     technologies: ["EMC Testing", "Sensor Design", "Electromagnetic Theory", "CAD"],
@@ -87,7 +96,7 @@ export const projects = [
     image: "https://images.pexels.com/photos/227731/pexels-photo-227731.jpeg"
   },
   {
-    id: 5,
+    id: 6,
     title: "Mikrodalga Fırın Bal Peteği Cam Tasarımı",
     description: "Mikrodalga fırınlarda elektromanyetik sızıntıyı önlemek için Faraday kafesi prensibiyle çalışan bal peteği yapısında cam tasarımı. EMC standartlarına uygun, güvenli ve verimli bir çözüm.",
     technologies: ["EMC", "Faraday Cage", "Microwave Theory", "Material Science"],
