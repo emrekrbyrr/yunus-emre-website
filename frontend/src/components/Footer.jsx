@@ -32,20 +32,20 @@ const Footer = () => {
                 <Github size={18} />
               </a>
               <a
-                href={personalInfo.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 flex items-center justify-center rounded-full bg-[#6B5D52] hover:bg-[#8B7355] transition-all duration-300 transform hover:scale-110"
-              >
-                <Instagram size={18} />
-              </a>
-              <a
                 href={personalInfo.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-[#6B5D52] hover:bg-[#8B7355] transition-all duration-300 transform hover:scale-110"
               >
                 <Linkedin size={18} />
+              </a>
+              <a
+                href={personalInfo.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 flex items-center justify-center rounded-full bg-[#6B5D52] hover:bg-[#8B7355] transition-all duration-300 transform hover:scale-110"
+              >
+                <Instagram size={18} />
               </a>
               <a
                 href={`mailto:${personalInfo.email}`}

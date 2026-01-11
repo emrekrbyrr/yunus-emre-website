@@ -88,20 +88,20 @@ const Contact = () => {
                 <Github size={24} />
               </a>
               <a
-                href={contactInfo.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-14 h-14 flex items-center justify-center rounded-full bg-white text-[#3E3028] hover:bg-[#8B7355] hover:text-white transform hover:scale-110 transition-all duration-300 border border-[#E8DFD4] shadow-lg hover:shadow-xl"
-              >
-                <Instagram size={24} />
-              </a>
-              <a
                 href={contactInfo.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-14 h-14 flex items-center justify-center rounded-full bg-white text-[#3E3028] hover:bg-[#8B7355] hover:text-white transform hover:scale-110 transition-all duration-300 border border-[#E8DFD4] shadow-lg hover:shadow-xl"
               >
                 <Linkedin size={24} />
+              </a>
+              <a
+                href={contactInfo.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-14 h-14 flex items-center justify-center rounded-full bg-white text-[#3E3028] hover:bg-[#8B7355] hover:text-white transform hover:scale-110 transition-all duration-300 border border-[#E8DFD4] shadow-lg hover:shadow-xl"
+              >
+                <Instagram size={24} />
               </a>
             </div>
           </div>

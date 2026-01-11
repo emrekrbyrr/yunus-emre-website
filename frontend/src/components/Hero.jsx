@@ -89,20 +89,20 @@ const Hero = () => {
                 <Github size={18} />
               </a>
               <a
-                href={personalInfo.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 flex items-center justify-center rounded-lg bg-[#FAF7F0] text-[#3E3028] hover:bg-[#8B7355] hover:text-white transform hover:scale-110 transition-all duration-300 border border-[#E8DFD4]"
-              >
-                <Instagram size={18} />
-              </a>
-              <a
                 href={personalInfo.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center rounded-lg bg-[#FAF7F0] text-[#3E3028] hover:bg-[#8B7355] hover:text-white transform hover:scale-110 transition-all duration-300 border border-[#E8DFD4]"
               >
                 <Linkedin size={18} />
+              </a>
+              <a
+                href={personalInfo.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-10 h-10 flex items-center justify-center rounded-lg bg-[#FAF7F0] text-[#3E3028] hover:bg-[#8B7355] hover:text-white transform hover:scale-110 transition-all duration-300 border border-[#E8DFD4]"
+              >
+                <Instagram size={18} />
               </a>
               <a
                 href={`mailto:${personalInfo.email}`}
