@@ -10,7 +10,7 @@ export const personalInfo = {
   linkedin: "https://www.linkedin.com/in/emrekrbyr/",
   instagram: "https://www.instagram.com/emre.kirbayir/",
   github: "https://github.com/emrekrbyrr",
-  location: "Kocaeli, Türkiye",
+  location: "İstanbul, Türkiye",
   profileImage: "/images/profile.jpg"
 };
 
