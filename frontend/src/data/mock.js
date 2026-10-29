@@ -54,7 +54,7 @@ export const projects = [
   {
     id: 7,
     title: "Kurumum – Kurs ve Akademi Yönetim Uygulaması",
-    description: "Kurs, akademi, atölye ve pilates stüdyoları için çok kurumlu ders programı, öğrenci ve muhasebe uygulaması. Yönetici, öğretmen ve öğrenci rolleriyle haftalık program, telafi dersleri, ödeme takibi, gelir-gider ve Excel dışa aktarma tek uygulamada. Kurum verileri uygulama katmanı, PostgreSQL satır düzeyi güvenlik (RLS) ve çapraz bağ engeliyle üç katmanda birbirinden ayrılır. Süper yönetici paneli iki adımlı doğrulama (TOTP) ile korunur. App Store ve Google Play'de yayında. (kurumum.app)",
+    description: "Kurs, akademi, atölye ve pilates stüdyoları için çok kurumlu ders programı, öğrenci ve muhasebe uygulaması. Yönetici, öğretmen ve öğrenci rolleriyle haftalık program, telafi dersleri, ödeme takibi, gelir-gider ve Excel dışa aktarma tek uygulamada. App Store ve Google Play'de yayında. (kurumum.app)",
     technologies: ["React Native (Expo)", "TypeScript", "Fastify", "Prisma", "PostgreSQL", "Docker", "AWS EC2"],
     category: "Full-Stack Development",
     year: "2026",
