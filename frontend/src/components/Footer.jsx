@@ -113,7 +113,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href={`tel:${personalInfo.phone}`} className="hover:text-[#8B7355] transition-colors">
+                <a href={`tel:${personalInfo.phone.replace(/\s/g, '')}`} className="hover:text-[#8B7355] transition-colors">
                   {personalInfo.phone}
                 </a>
               </li>

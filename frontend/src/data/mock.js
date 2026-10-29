@@ -6,12 +6,12 @@ export const personalInfo = {
   tagline: "Mühendislik Vizyonu ile Teknik Çözümler",
   description: "Kocaeli Üniversitesi Elektronik ve Haberleşme Mühendisi mezunu olarak akademik ve profesyonel hayatım boyunca donanım ve yazılımın sinerjisine odaklandım. Mühendislik kökenli bakış açımla, karmaşık iş akışlarını analiz ederek bunları yüksek performanslı dijital çözümlere dönüştürüyorum.",
   email: "emrekirbayir@gmail.com",
-  phone: "05395734636",
+  phone: "0539 573 46 36",
   linkedin: "https://www.linkedin.com/in/emrekrbyr/",
-  instagram: "https://www.instagram.com/emrekrbyr_/",
+  instagram: "https://www.instagram.com/emre.kirbayir/",
   github: "https://github.com/emrekrbyrr",
   location: "Kocaeli, Türkiye",
-  profileImage: "https://customer-assets.emergentagent.com/job_fullstackemre/artifacts/93gpjx24_IMG_8070.jpg"
+  profileImage: "/images/profile.jpg"
 };
 
 export const aboutText = {
@@ -56,7 +56,7 @@ export const projects = [
     title: "Kurumum – Kurs ve Akademi Yönetim Uygulaması",
     description: "Kurs, akademi, atölye ve pilates stüdyoları için çok kurumlu ders programı, öğrenci ve muhasebe uygulaması. Yönetici, öğretmen ve öğrenci rolleriyle haftalık program, telafi dersleri, ödeme takibi, gelir-gider ve Excel dışa aktarma tek uygulamada. App Store ve Google Play'de yayında. (kurumum.app)",
     technologies: ["React Native (Expo)", "TypeScript", "Fastify", "Prisma", "PostgreSQL", "Docker", "AWS EC2"],
-    category: "Full-Stack Development",
+    category: "Full-Stack Geliştirme",
     year: "2026",
     image: "/images/kurumum.jpg"
   },
@@ -65,7 +65,7 @@ export const projects = [
     title: "Varlık ve Kiralama Yönetim Sistemi",
     description: "Bu platform; şirketlerin ürün kiralama süreçlerini teklif aşamasından başlayarak sözleşme, ödeme ve cari takibiyle birlikte tek merkezden yönetmesini sağlar. Operasyonel yükü azaltırken, finansal akışın hatasız ve şeffaf bir şekilde izlenmesine olanak tanır.",
     technologies: ["React.js", "Node.js", "Bootstrap", "PostgreSQL"],
-    category: "Full-Stack Development",
+    category: "Full-Stack Geliştirme",
     year: "2024",
     image: "https://images.pexels.com/photos/34862432/pexels-photo-34862432.jpeg"
   },
@@ -74,7 +74,7 @@ export const projects = [
     title: "İtfaiye Bilgi Sistemi",
     description: "İtfaiye ekipleri için geliştirilmiş kapsamlı bilgi yönetim sistemi. Acil durum müdahalesi, ekip koordinasyonu ve raporlama süreçlerini dijitalleştirerek operasyonel verimliliği artıran modern bir platform.",
     technologies: ["Node.js", "React.js", "REST API", "Real-time Data"],
-    category: "Full-Stack Development",
+    category: "Full-Stack Geliştirme",
     year: "2024",
     image: "https://images.pexels.com/photos/35461837/pexels-photo-35461837.jpeg"
   },
@@ -83,7 +83,7 @@ export const projects = [
     title: "Özel Metod ile Borsa Analiz & Hisse Bulma Uygulaması",
     description: "Kullanıcıların kendilerine özel yöntem/stratejiler ile yükseliş potansiyeli taşıyan hisseleri tespit etmesini sağlar. Hisseleri filtreleyip listeledikten sonra, detaylı grafik incelemesi ve araştırma ekranları sunar. Üst seviye güvenlik önlemleriyle verilerin ve hesap erişiminin korunmasına odaklanır. (simons.com.tr)",
     technologies: ["Python", "React.js", "Güvenlik", "Veri Analizi", "Grafik Analizi"],
-    category: "Full-Stack Development",
+    category: "Full-Stack Geliştirme",
     year: "2024",
     image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80"
   },
@@ -92,7 +92,7 @@ export const projects = [
     title: "Şirket Web Siteleri & SEO Çalışmaları",
     description: "Çeşitli sektörlerden şirketler için modern, responsive ve SEO odaklı web siteleri geliştirdim. Teknik SEO ve içerik optimizasyonlarıyla arama görünürlüğünü artırmayı hedefleyen çalışmalar yürüttüm.",
     technologies: ["React.js", "SEO", "Google Analytics", "Performance Optimization"],
-    category: "Web Development & SEO",
+    category: "Web Geliştirme & SEO",
     year: "2023-2024",
     image: "https://images.unsplash.com/photo-1547658719-da2b51169166?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3MjQyMTd8MHwxfHNlYXJjaHwyfHx3ZWIlMjBkZXZlbG9wbWVudHxlbnwwfHx8fDE3Njc3ODIzMDJ8MA&ixlib=rb-4.1.0&q=85"
   },
@@ -101,7 +101,7 @@ export const projects = [
     title: "EMC Uyumlu Elektrikli Araç Sensör Dizilimi",
     description: "Otonom ve elektrikli araçlar için elektromanyetik uyumluluk standartlarına uygun sensör dizilimi tasarımı. Elektromanyetik girişimi minimize ederek güvenilir sensör performansı sağlayan mühendislik projesi.",
     technologies: ["EMC Testing", "Sensor Design", "Electromagnetic Theory", "CAD"],
-    category: "Hardware Engineering",
+    category: "Donanım Mühendisliği",
     year: "2023",
     image: "https://images.pexels.com/photos/227731/pexels-photo-227731.jpeg"
   },
@@ -110,7 +110,7 @@ export const projects = [
     title: "Mikrodalga Fırın Bal Peteği Cam Tasarımı",
     description: "Mikrodalga fırınlarda elektromanyetik sızıntıyı önlemek için Faraday kafesi prensibiyle çalışan bal peteği yapısında cam tasarımı. EMC standartlarına uygun, güvenli ve verimli bir çözüm.",
     technologies: ["EMC", "Faraday Cage", "Microwave Theory", "Material Science"],
-    category: "Hardware Engineering",
+    category: "Donanım Mühendisliği",
     year: "2022",
     image: "https://images.unsplash.com/photo-1637186209526-652da1746ff4"
   }
@@ -144,8 +144,8 @@ export const contactInfo = {
   title: "Birlikte Çalışalım",
   subtitle: "Yeni bir projeniz mi var? Benimle iletişime geçin!",
   email: "emrekirbayir@gmail.com",
-  phone: "05395734636",
+  phone: "0539 573 46 36",
   linkedin: "https://www.linkedin.com/in/emrekrbyr/",
-  instagram: "https://www.instagram.com/emrekrbyr_/",
+  instagram: "https://www.instagram.com/emre.kirbayir/",
   github: "https://github.com/emrekrbyrr"
 };

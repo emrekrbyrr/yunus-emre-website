@@ -29,7 +29,7 @@ const Projects = () => {
     };
   }, []);
 
-  const categories = ['all', 'Full-Stack Development', 'Web Development & SEO', 'Hardware Engineering'];
+  const categories = ['all', 'Full-Stack Geliştirme', 'Web Geliştirme & SEO', 'Donanım Mühendisliği'];
 
   const filteredProjects = activeFilter === 'all'
     ? projects

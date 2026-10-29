@@ -62,7 +62,7 @@ const Contact = () => {
 
             {/* Phone Card */}
             <a
-              href={`tel:${contactInfo.phone}`}
+              href={`tel:${contactInfo.phone.replace(/\s/g, '')}`}
               className="flex flex-col items-center gap-4 p-8 bg-white rounded-2xl hover:bg-[#FEFEFE] transition-all duration-300 border border-[#E8DFD4] hover:shadow-2xl group transform hover:-translate-y-2"
             >
               <div className="w-16 h-16 bg-gradient-to-br from-[#8B7355] to-[#A0826D] rounded-2xl flex items-center justify-center text-white group-hover:scale-110 transition-transform shadow-lg">
