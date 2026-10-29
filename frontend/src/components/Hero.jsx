@@ -44,7 +44,7 @@ const Hero = () => {
             {/* Small Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-[#FAF7F0] border border-[#E8DFD4] rounded-full mb-6">
               <div className="w-2 h-2 bg-[#8B7355] rounded-full animate-pulse"></div>
-              <span className="text-sm text-[#6B5D52] font-medium">Developer Engineer</span>
+              <span className="text-sm text-[#6B5D52] font-medium">Developer &amp; Engineer</span>
             </div>
 
             <h1 className="text-5xl lg:text-7xl font-bold text-[#3E3028] mb-4 tracking-tight leading-tight">
